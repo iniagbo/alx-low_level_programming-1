@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - prints the phrase "Programming is like building a multilingual
+ * main - "Programming is like building a multilingual
  * puzzle"
  *
- * Return: Always 0 (Successful)
+ * Return: Always 0 (Succesful)
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual
+	puts("\"Progrmming is like building a multilingual
 puzzle");
 	return (0);
 }
