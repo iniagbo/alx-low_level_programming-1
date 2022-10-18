@@ -1,4 +1,4 @@
-#include <main.h>
+#include"main.h"
 
 /**
  * main-program entry point.
@@ -7,6 +7,7 @@
  *
  * Return: 0.
  */
+
 int main(void)
 {
 	char str[] = "_putchar";
