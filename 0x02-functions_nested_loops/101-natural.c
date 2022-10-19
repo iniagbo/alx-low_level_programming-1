@@ -1,20 +1,25 @@
 #include <stdio.h>
 
 /**
- * main-Prints natural numbers below 1024 that are
- * multiples of 3 or 5
+ * main-Programme Entry Point.
+ * 
+ * Description: computes the sum of all
+ * 		the multiples of 3 or 5
+ * 		below 1024 (excluded)
  *
- * Return: Always 0.
+ * Return: Always 0,		
  */
+
 int main(void)
 {
-	int a, b;
+	intsuma, num;
 
-	for (a = 1; a < 1024; a++)
+	for (num = 0; num < 1024; ++num)
 	{
-		if ((a % 3) == 0 || (a % 5) == 0)
-			b += a;
+		if ((num % 3 == 0) || (num % 5 == 0))
+			sum += num;
 	}
-	printf("%d\n', b);
+	printf("%d\n", sum);
+
 	return (0);
 }
