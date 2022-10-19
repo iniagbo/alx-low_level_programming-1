@@ -2,12 +2,12 @@
 
 /**
  * main-Programme Entry Point.
- * 
- * Description: computes the sum of all
- * 		the multiples of 3 or 5
- * 		below 1024 (excluded)
  *
- * Return: Always 0,		
+ * Description: computes the sum of all
+ * the multiples of 3 or 5
+ * below 1024 (excluded)
+ *
+ * Return: Always 0.
  */
 
 int main(void)
