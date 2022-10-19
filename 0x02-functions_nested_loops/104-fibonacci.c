@@ -8,12 +8,13 @@
  * Return: number of digits
  */
 
-int mu==numLength(int num)
+int numLength(int num)
 {
 	int length = 0;
 
 	if (!num)
 		return (1);
+
 	while (num)
 	{
 		num = num / 10;
@@ -27,7 +28,7 @@ int mu==numLength(int num)
  * main-Entry point
  *
  * Description: prints the first 98 Fibonacci numbers
- * 	starting with 1 and 2 followed by a new line
+ * starting with 1 and 2 followed by a new line
  *
  * Return: Always 0.
  */
