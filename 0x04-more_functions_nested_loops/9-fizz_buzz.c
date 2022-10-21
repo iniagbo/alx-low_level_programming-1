@@ -21,6 +21,7 @@ printf("FizzBuzz ");
 
 else if (i % 3 == 0)
 {
+if (i < p)
 printf("Fizz ");
 }
 
@@ -30,18 +31,16 @@ if (i < p)
 printf("Buzz ");
 
 else
-printf("Buzz");
+printf("Buzz ");
 }
 
 else
 {
-printf(%i ", i);
+printf("%i ", i);
 }
-
-i++;
 
 
 }
-printf("\n");
+printf("\n";
 return (0);
 }
