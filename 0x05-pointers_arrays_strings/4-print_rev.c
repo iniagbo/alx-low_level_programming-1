@@ -18,6 +18,6 @@ void print_rev(char *s)
 
 	/* print char from tht last index as you decrement */
 	for (--index; index >= 0; --index)
-		-putchar(s[index]);
+		_putchar(s[index]);
 	_putchar('\n');
 }
